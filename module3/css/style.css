@@ -1,0 +1,75 @@
+body{
+    font-size: 16px;
+    color:black;
+
+}
+
+/** HEADER **/
+
+
+#header-nav{
+    background-color: #7091a8 ;
+    border-radius: 0;
+    border:0;  
+}
+
+.navbar-brand h1{ /* Main heading */
+    color: black;
+    font-size: 1.75em;
+    font-family: 'Oxygen', sans-serif;
+    text-shadow: 1px 1px 1px black;
+    line-height: .75;
+    margin-top: 0;
+    margin-bottom: 0;
+    /* margin-bottom: 20px; */
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{ 
+    text-decoration: none; /* inorder to remove the underline when we move the mouse over there*/
+}
+
+.navbar-brand button.navbar-toggle{
+    clear:both;
+    margin-top: -30px;
+}
+
+#nav-list li{
+    text-align: center;
+    color: black;
+    font: 5em;
+}
+
+#nav-list a {
+    color: black;
+  }
+
+/** Main Content */
+#main-content h2{
+    margin-bottom: 15px;
+    color: black;
+    font-family: 'Oxygen', sans-serif;
+    text-shadow: .55px .55px .55px black;
+}
+
+#main-content h3{
+    color: black;
+    font-family: 'Oxygen', sans-serif;
+    text-shadow: .55px .55px .55px black;
+}
+
+#home-tiles{
+    background-color: rgb(154, 178, 196);
+    margin:10px;
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+    /* Header */
+    .navbar-brand {
+      /* padding-top: 10px; */
+      height: 70px;
+    }
+    .navbar-brand h1 { 
+      font-size: 5vw; /* 1vw = 1% of viewport width */
+    }
+}
